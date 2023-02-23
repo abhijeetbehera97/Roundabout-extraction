@@ -7,7 +7,7 @@
 import numpy as np
 
 def roundabout_crossing_interval(tc, rb_boundary):
-    vehicle_not_in_roundabout = 1 # 1 when vehicle is roundabout, 0 when vehicle is in roundabout
+    vehicle_not_in_roundabout = 1 # 1 when vehicle is not in roundabout, 0 when vehicle is in roundabout
     k = 1
     interval = []
 
